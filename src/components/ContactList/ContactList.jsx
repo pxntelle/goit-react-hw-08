@@ -15,7 +15,9 @@ export default function ContactList() {
   const visibleContacts = getVisibleContacts(contacts, nameFilter);
   return (
     <ul className={css.contactList}>
-      {contacts.length === 0 && <p>Your contacts will appear here</p>}
+      {contacts.length === 0 && (
+        <p className={css.emptyList}>Your contacts will appear here</p>
+      )}
       {visibleContacts.map((contact) => (
         <li key={contact.id}>
           <Contact contact={contact}></Contact>

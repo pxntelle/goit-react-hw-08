@@ -4,3 +4,7 @@
   flex-wrap: wrap;
   padding: 0;
 }
+
+.emptyList {
+  color: grey;
+}
