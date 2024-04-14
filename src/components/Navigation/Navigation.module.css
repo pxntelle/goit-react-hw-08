@@ -7,12 +7,4 @@ nav {
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: #2a363b;
-}
-
-.link:hover :active :focus {
-  border: none;
-  background-color: #131f2a;
-  color: white;
-  transition: 500ms;
 }

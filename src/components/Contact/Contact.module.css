@@ -17,5 +17,13 @@
   margin-left: auto;
   height: 44px;
   align-self: center;
-  background: lightsalmon;
+  border: none;
+
+  background: salmon;
+  transition: 0.35s;
+}
+
+.deleteButton:hover {
+  border: none;
+  background-color: lightsalmon;
 }

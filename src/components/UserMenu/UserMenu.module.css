@@ -10,14 +10,18 @@
 
 .btn {
   margin-left: auto;
-  height: 44px;
+  height: 40px;
   align-self: center;
-  background-color: #213547;
+  border: none;
+
+  background-color: #242424;
+  color: white;
+
+  transition: 0.35s;
+  margin: 8px;
 }
 
 .btn:hover {
   border: none;
-  background-color: #131f2a;
-  color: white;
-  transition: 500ms;
+  background-color: salmon;
 }

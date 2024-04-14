@@ -79,6 +79,7 @@ export default function ContactForm() {
         <div className={css.formField}>
           <label htmlFor={elementId + "-name"}>Name:</label>
           <Field
+            className={css.input}
             type="text"
             name="name"
             id={elementId + "-name"}
@@ -89,6 +90,7 @@ export default function ContactForm() {
         <div className={css.formField}>
           <label htmlFor={elementId + "-number"}>Phone Number:</label>
           <Field
+            className={css.input}
             type="text"
             name="number"
             id={elementId + "-number"}

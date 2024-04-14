@@ -2,7 +2,7 @@
   width: 360px;
   padding: 20px;
   background: white;
-  border: 1px solid black;
+  border: 3px solid#242424;
   border-radius: 8px;
 }
 
@@ -15,8 +15,32 @@
   color: salmon;
 }
 
+.input {
+  padding: 4px;
+  font-size: 18px;
+  width: 340px;
+  margin-bottom: 8px;
+  color: #242424;
+
+  background-color: white;
+  border: 2px solid lightblue;
+  border-radius: 8px;
+}
+
 .contactButton {
-  position: relative;
+  /* position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0); */
+  display: flex;
+  background-color: #242424;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  transition: 0.35s;
+}
+
+.contactButton:hover {
+  border: none;
+  background-color: lightblue;
 }
