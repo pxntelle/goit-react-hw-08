@@ -4,8 +4,8 @@
   height: 68px;
   background: white;
   border: 1px solid black;
-  border-radius: 4px;
-  padding: 12px;
+  border-radius: 8px;
+  padding: 16px;
   text-align: start;
   align-items: center;
 }
