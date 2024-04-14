@@ -6,7 +6,6 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "../Layout/Layout";
 
 import { Toaster } from "react-hot-toast";
-// import { BiSolidContact } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 
 import { refreshUser } from "../../redux/auth/operations";
@@ -14,8 +13,6 @@ import { selectIsRefreshing } from "../../redux/auth/selectors";
 import { RestrictedRoute } from "../RestrictedRoute";
 import { PrivateRoute } from "../PrivateRoute";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
-
-// import NotFoundPage from "../../pages/NotFoundPage";
 
 const HomePage = lazy(() => import("../../pages/Home/Home"));
 const RegisterPage = lazy(() =>

@@ -1,0 +1,16 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Відцентровує по горизонталі */
+  justify-content: center; /* Відцентровує по вертикалі */
+  /* height: 100vh; */
+}
+
+.homeIconContainer {
+  margin-top: 16px; /* За бажанням можна задати відступ від PageTitle */
+}
+
+.homeIcon {
+  width: 200px;
+  height: 200px;
+}

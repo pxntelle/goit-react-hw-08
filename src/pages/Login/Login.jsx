@@ -9,7 +9,7 @@ export default function Login() {
       <LoginForm />
       <p style={{ textAlign: "center" }}>
         or
-        <Link to="/register"> register </Link>
+        <Link to="/register">or create new Phonebook</Link>
       </p>
     </div>
   );
