@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectContacts } from "../../redux/contacts/selectors";
 import { Toaster } from "react-hot-toast";
 import ErrorToast from "../Toast/ErrorToast";
-import SuccessToast from "../Toast/SuccessToast";
+import SuccessToast from "../Toast/SuccessToast.jsx";
 import { addContact } from "../../redux/contacts/operations";
 
 const phoneRegExp = /^\d{3}-\d{3}-\d{4}$/;
